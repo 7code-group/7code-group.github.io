@@ -72,11 +72,23 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'feGroup',
             position: 'left',
-            label: 'Tutorial',
+            label: 'FE',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'beGroup',
+            position: 'left',
+            label: 'BE',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
