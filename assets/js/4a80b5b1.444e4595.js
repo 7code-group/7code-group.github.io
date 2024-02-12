@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_7_code_group_github_io=self.webpackChunk_7_code_group_github_io||[]).push([[544],{2424:e=>{e.exports=JSON.parse('{"title":"Express","description":"Express","slug":"/category/express-1","permalink":"/docs/category/express-1","navigation":{"next":{"title":"Express-1 \uc81c\ubaa9","permalink":"/docs/g-be-docs/express/exp-1"}}}')}}]);
