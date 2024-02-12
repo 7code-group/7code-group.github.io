@@ -11,7 +11,9 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "copy-images": "cpy \"./docs/marp/**/*.{jpg,png}\" \"./static/marp\"",
+    "build:marp": "marp --html -I ./docs/marp -o ./static/marp/ && yarn copy-images"
   },
   "dependencies": {
     "@docusaurus/core": "3.1.1",
